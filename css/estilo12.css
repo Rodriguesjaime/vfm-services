@@ -155,50 +155,53 @@ footer > p.rodape {
 #desc{
     text-transform: uppercase;
 }
+.botoes {
+   
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+.botoes :hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*para os tablete*/
 
-/* para smartphone*/
-
-@media screen and (max-width:768px) {
-
-
-    #pricabeca{
-        background-color: black;
-    }
+@media screen and (max-width:768px) { 
+     
     ul#primenu{
         list-style: none;
         margin: 0px;
-    } 
+    }
+    /* corpo geral das paginas*/
+                main{
+                   
+                    width: 500px;
+                    height: 800px;
+                    margin: auto;
+    }
+    
+    }
+    
+/* para smartphone*/
+
+@media screen and (max-width:680px) {
+
+    
+ul#primenu{
+    list-style: none;
+    padding: 1px;
+  
+    
+}
     /* corpo geral das paginas*/
     main{
     
         width: 320px;
-        height: 820px;
-    
-    
-      
+        height: 800px;
+         
     }
-    
     }
 
-
-/*para os tablete*/
-
-@media screen and (min-width:640px) { 
-    #pricabeca{
-        background-color: brown;
-    }
-     
-ul#primenu{
-    list-style: none;
-    margin: 0px;
-}
-/* corpo geral das paginas*/
-            main{
-            
-                width: 500px;
-                height: 560px;
-            
-}
-
-}

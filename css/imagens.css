@@ -272,229 +272,57 @@ ul#fotos_serviimp li.serviimp5{
     width: 60px;
     margin-top: -170px;
     float: left;
-    
+    border-radius: 40px 30px 40px 30px ;
 }
        
 .icon1{
     margin-left: 10px;
-    width: 60px;
+    width: 40px;
     margin-top: -120px;
     float: left;
     
+    border-radius: 40px 30px 40px 30px ;
+}
+
+/*resolucao de tablet*/
+@media screen and (max-width:768px){
+ /*perfil geral de cada membro*/
+.imaglegenda{
+    margin-top: -15px;
+    margin-left: 305px;
+    color: white;
 }
 
   
-/*resolucao de smartphone*/
-@media screen and (max-width:768px){
-    /*perfil geral de cada membro*/
-   .imaglegenda{
-       margin-top: -15px;
-       margin-left: 360px;
-       color: white;
-   }
-   
-     
-   ul#fotos_perfil{
-   margin-left: 320px;
-   
-   }
-   ul#fotos_perfil li.perfil1{
-   background: url(../imagens/perfil_valdez.jpg) no-repeat;
-   background-size: 100%;
-   margin-top: 200px;
-   }
-   ul#fotos_perfil li.perfil2{
-   background: url(../imagens/miguel02.jpg) no-repeat;
-   background-size: 100%;
-   }
-   ul#fotos_perfil li.perfil3{
-   background: url(../imagens/perfil0133.jpg) no-repeat;
-   background-size: 100%;
-   }
-      
-   /* imagens da pagina principal*/
-   
-    
-   ul#fotos_principal{
-       width: 300px;
-       margin-left: 10px;
-       margin-top: -40px;
-       }
-     
-   ul#fotos_principal li.imagem01{
-       background: url(../imagens/faquer022.jpg) no-repeat;
-       background-size: 100%;
-       width: 110px;
-       }
-       ul#fotos_principal li.imagem02{
-       background: url(../imagens/miguel02.jpg) no-repeat;
-       background-size: 100%;
-       margin-top: -165px;
-       margin-left: 150px;
-       width: 110px;
-       }
-      
-      
-      ul#fotos_principal li.imagem03{
-      background: url(../imagens/valdez033.jpg) no-repeat;
-      background-size: 100%;
-      margin-top: 5px;
-      width: 110px;
-      
-      
-      }
-   
-   /*desenvolvimento Web*/
-   ul#fotos_servicos{
-       width: 550px;
-     
-       margin-left: 5px;
-       padding: 5px;
-      
-       }
-               ul#fotos_servicos li.servico3{
-                   background: url(../imagens/projecto03.png) no-repeat;
-                   background-size: 100%;
-                   margin-top: 5px;
-                   margin-left: 5px;
-                   
-                   }
-                   ul#fotos_servicos li.servico4{
-                       background: url(../imagens/projecto04.png) no-repeat;
-                       background-size: 100%;
-                       margin-top: 10px;
-                       margin-left: 5px;
-                   }
-                    
-   /*imagens de refregiracao*/
-   
-   ul#fotos_serviref{
-       width: 550px;
-       margin-left: 5px;
-       padding: 5px;
-   }
-   
-   ul#fotos_serviref li.serviref1{
-       background: url(../imagens/ref100.jpg) no-repeat;
-       background-size: 100%;
-       }
-   ul#fotos_serviref li.serviref2{
-   background: url(../_imagens/ref2.jpg) no-repeat;
-   background-size: 100%;
-   }
-   ul#fotos_serviref li.serviref3{
-   background: url(../imagens/ref3.jpg) no-repeat;
-   background-size: 100%;
-   margin-top: 5px;
-   margin-left: 5px;
-   
-   }
-      
-   ul#fotos_serviref li.serviref4{
-           background: url(../imagens/ref10.jpg) no-repeat;
-           background-size: 100%;
-           margin-top: 10px;
-           margin-left: 5px;
-   }
-           
-   ul#fotos_serviref li.serviref5{
-   background: url(../imagens/ref11.jpg) no-repeat;
-   background-size: 100%;
-   margin-top: 10px;
-       margin-left: 5px;
-   }
-       
-           ul#fotos_serviref li.serviref6{
-               background: url(../imagens/ref12.jpg) no-repeat;
-               background-size: 100%;
-               margin-top: 10px;
-               margin-left: 5px;
-               }
-   
-   
-   /*imagens de impermeabelizacao*/
-   
-   ul#fotos_serviimp{
-       width: 550px;
-       margin-left: 5px;
-       padding: 5px;
-       
-       }
-       ul#fotos_serviimp li.serviimp3{
-           background: url(../imagens/imagem2.jpg) no-repeat;
-           background-size: 100%;
-           margin-top: 5px;
-           margin-left: 5px;
-                   }
-       
-                   ul#fotos_serviimp li.serviimp4{
-                       background: url(../imagens/imagem3.jpg) no-repeat;
-                       background-size: 100%;
-                       margin-top: 10px;
-                       margin-left: 5px;
-                   }
-                   ul#fotos_serviimp li.serviimp5{
-                       background: url(../imagens/imagem6.jpg) no-repeat;
-                       background-size: 100%;
-                       margin-top: 10px;
-                       margin-left: 5px;
-                       }
-                   
-                       ul#fotos_serviimp li.serviimp6{
-                           background: url(../imagens/imagem7.jpg) no-repeat;
-                           background-size: 100%;
-                           margin-top: 10px;
-                           margin-left: 5px;
-                           }
-                              
-               
-           
-   .icon{
-       margin-left: 10px;
-       width: 50px;
-       margin-top: -170px;
-       float: left;
-       
-       
-   }
-          
-   .icon1{
-       margin-left: 10px;
-       width: 50px;
-       margin-top: -120px;
-       float: left;    
-   }
-   }
+ul#fotos_perfil{
+margin-left: 260px;
 
-/*resol8ucao para smartphone*/
+}
+ul#fotos_perfil li.perfil1{
+background: url(../imagens/perfil_valdez.jpg) no-repeat;
+background-size: 100%;
+}
+ul#fotos_perfil li.perfil2{
+background: url(../imagens/miguel02.jpg) no-repeat;
+background-size: 100%;
+}
+ul#fotos_perfil li.perfil3{
+background: url(../imagens/perfil0133.jpg) no-repeat;
+background-size: 100%;
+}
+   
+/* imagens da pagina principal*/
 
-@media screen and (min-width: 640px){
-    /*perfil geral de cada membro*/
-   .imaglegenda{
-       margin-top: -15px;
-       margin-left: 225px;
-      
-   }
-   
-   ul#fotos_perfil{
-   
-   margin-left: 180px;
-   margin-top: 2px;
-   }
-      
-   /* imagens da pagina principal*/
-   
+ 
 ul#fotos_principal{
-
+    
     margin-left: 10px;
-   
+    margin-top: -55px;
     }
   
 ul#fotos_principal li.imagem01{
     background: url(../imagens/faquer022.jpg) no-repeat;
     background-size: 100%;
-    margin-top: 50px;
-    
     }
     ul#fotos_principal li.imagem02{
     background: url(../imagens/miguel02.jpg) no-repeat;
@@ -507,8 +335,177 @@ ul#fotos_principal li.imagem01{
    ul#fotos_principal li.imagem03{
    background: url(../imagens/valdez033.jpg) no-repeat;
    background-size: 100%;
-   margin-top: 50px;
+   
+   
+   }
+
+/*desenvolvimento Web*/
+ul#fotos_servicos{
+    width: 550px;
+  
+    margin-left: 5px;
+    padding: 5px;
+   
+    }
+            ul#fotos_servicos li.servico3{
+                background: url(../imagens/projecto03.png) no-repeat;
+                background-size: 100%;
+                margin-top: 5px;
+                margin-left: 5px;
+                
+                }
+                ul#fotos_servicos li.servico4{
+                    background: url(../imagens/projecto04.png) no-repeat;
+                    background-size: 100%;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                }
+                 
+/*imagens de refregiracao*/
+
+ul#fotos_serviref{
+    width: 550px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+ul#fotos_serviref li.serviref1{
+    background: url(../imagens/ref100.jpg) no-repeat;
+    background-size: 100%;
+    }
+ul#fotos_serviref li.serviref2{
+background: url(../_imagens/ref2.jpg) no-repeat;
+background-size: 100%;
+}
+ul#fotos_serviref li.serviref3{
+background: url(../imagens/ref3.jpg) no-repeat;
+background-size: 100%;
+margin-top: 5px;
+margin-left: 5px;
+
+}
+   
+ul#fotos_serviref li.serviref4{
+        background: url(../imagens/ref10.jpg) no-repeat;
+        background-size: 100%;
+        margin-top: 10px;
+        margin-left: 5px;
+}
+        
+ul#fotos_serviref li.serviref5{
+background: url(../imagens/ref11.jpg) no-repeat;
+background-size: 100%;
+margin-top: 10px;
+    margin-left: 5px;
+}
+    
+        ul#fotos_serviref li.serviref6{
+            background: url(../imagens/ref12.jpg) no-repeat;
+            background-size: 100%;
+            margin-top: 10px;
+            margin-left: 5px;
+            }
+
+
+/*imagens de impermeabelizacao*/
+
+ul#fotos_serviimp{
+    width: 550px;
+    margin-left: 5px;
+    padding: 5px;
+    
+    }
+    ul#fotos_serviimp li.serviimp3{
+        background: url(../imagens/imagem2.jpg) no-repeat;
+        background-size: 100%;
+        margin-top: 5px;
+        margin-left: 5px;
+                }
+    
+                ul#fotos_serviimp li.serviimp4{
+                    background: url(../imagens/imagem3.jpg) no-repeat;
+                    background-size: 100%;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                }
+                ul#fotos_serviimp li.serviimp5{
+                    background: url(../imagens/imagem6.jpg) no-repeat;
+                    background-size: 100%;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                    }
+                
+                    ul#fotos_serviimp li.serviimp6{
+                        background: url(../imagens/imagem7.jpg) no-repeat;
+                        background-size: 100%;
+                        margin-top: 10px;
+                        margin-left: 5px;
+                        }
+                           
+            
+        
+.icon{
+    margin-left: 10px;
+    width: 50px;
+    margin-top: -170px;
+    float: left;
+    
+    
+}
+       
+.icon1{
+    margin-left: 10px;
+    width: 50px;
+    margin-top: -120px;
+    float: left;    
+}
+}
+
+/*resol8ucao para smartphone*/
+
+@media screen and (max-width:680px){
+    /*perfil geral de cada membro*/
+   .imaglegenda{
+       margin-top: -15px;
+       margin-left: 125px;
+      
+   }
+   
+   ul#fotos_perfil{
+   
+   margin-left: 80px;
+   margin-top: 2px;
+   }
+      
+   /* imagens da pagina principal*/
+   
+ul#fotos_principal{
+    width: 300px;
+    margin-left: 10px;
+    margin-top: -45px;
+    }
+  
+ul#fotos_principal li.imagem01{
+    background: url(../imagens/faquer022.jpg) no-repeat;
+    background-size: 100%;
+    width: 120px;
+    
+    }
+    ul#fotos_principal li.imagem02{
+    background: url(../imagens/miguel02.jpg) no-repeat;
+    background-size: 100%;
+    margin-top: -165px;
+    margin-left: 140px;
+    width: 120px;
+    }
+   
+   
+   ul#fotos_principal li.imagem03{
+   background: url(../imagens/valdez033.jpg) no-repeat;
+   background-size: 100%;
+   margin-top: 10px;
    margin-left: 5px;
+   width: 120px;
    
    }
 
@@ -519,94 +516,139 @@ ul#fotos_serviref{
     margin-left: 10px;
     padding: 5px;
     }
+    
+    ul#fotos_serviref li.serviref1{
+        background: url(../imagens/ref100.jpg) no-repeat;
+        background-size: 100%;
+        margin-left: 20px;
+        width: 120px;
+        }
+        
+    ul#fotos_serviref li.serviref2{
+        background: url(../imagens/ref2.jpg) no-repeat;
+        background-size: 100%;
+        width: 120px;
+        }
     ul#fotos_serviref li.serviref3{
     background: url(../imagens/ref3.jpg) no-repeat;
     background-size: 100%;
     margin-top: 170px;
-    margin-left: -163px;
-    
+    margin-left: -130px;
+    width: 120px;
     }
     ul#fotos_serviref li.serviref4{
         background: url(../imagens/ref10.jpg) no-repeat;
         background-size: 100%;
         margin-top: 170px;
-        margin-left: -338px;
-        }
+        margin-left: -280px;
+        width: 120px;   
+    }
         
     ul#fotos_serviref li.serviref5{
         background: url(../imagens/ref11.jpg) no-repeat;
         background-size: 100%;
         margin-top: 340px;
-        margin-left: -335px;
+        margin-left: -135px;
+        width: 120px;
         }
     
         ul#fotos_serviref li.serviref6{
             background: url(../imagens/ref12.jpg) no-repeat;
             background-size: 100%;
             margin-top: 340px;
-            margin-left: -165px;
+            margin-left: -280px;
+            width: 120px;
             }
 
             
 ul#fotos_serviimp{
-width: 400px;
-
 margin-left: auto;
 padding: 10px;
 
+} 
+
+ul#fotos_serviimp li.serviimp1{
+    background: url(../imagens/imagm5.jpg) no-repeat;
+    background-size: 100%;
+    width: 120px;
 }
-            ul#fotos_serviimp li.serviimp3{
-                background: url(../imagens/imagem2.jpg) no-repeat;
-                background-size: 100%;
-                margin-top: 170px;
-                margin-left: -163px;
-            }
+
+ul#fotos_serviimp li.serviimp2{
+    background: url(../imagens/imagem1.jpg) no-repeat;
+    background-size: 100%;
+    width: 120px;
+}
+ul#fotos_serviimp li.serviimp3{
+    background: url(../imagens/imagem2.jpg) no-repeat;
+    background-size: 100%;
+    margin-top: 170px;
+    margin-left: -135px;
+    width: 120px;
+}
 
             ul#fotos_serviimp li.serviimp4{
                 background: url(../imagens/imagem3.jpg) no-repeat;
                 background-size: 100%;
                 margin-top: 170px;
-                margin-left: -338px;
+                margin-left: -275px;
+                width: 120px;
             }
             ul#fotos_serviimp li.serviimp5{
                 background: url(../imagens/imagem6.jpg) no-repeat;
                 background-size: 100%;
                 margin-top: 340px;
-                margin-left: -335px;
+                margin-left: -275px;
+                width: 120px;
                 }
             
                 ul#fotos_serviimp li.serviimp6{
                     background: url(../imagens/imagem7.jpg) no-repeat;
                     background-size: 100%;
                     margin-top: 340px;
-                    margin-left: -165px;
+                    margin-left: -135px;
+                    width: 120px;
                     }
                        
                     
 ul#fotos_servicos{
+
     width: 400px;
-  
     margin-left: 5px;
     padding: 10px;
    
+}
+ul#fotos_servicos li.servico1{
+    background: url(../imagens/projecto01.png) no-repeat;
+    background-size: 100%;
+    width: 120px;
+    
+    
     }
-            ul#fotos_servicos li.servico3{
-                background: url(../imagens/projecto03.png) no-repeat;
-                background-size: 100%;
-                margin-top: 170px;
-                margin-left: -163px;
-                
-                }
-                ul#fotos_servicos li.servico4{
-                    background: url(../imagens/projecto04.png) no-repeat;
-                    background-size: 100%;
-                    margin-top: 170px;
-                    margin-left: -338px;
+ul#fotos_servicos li.servico2{
+    background: url(../imagens/projecto02.png) no-repeat;
+    background-size: 100%;
+    width: 120px;
+    
+    
+}
+ul#fotos_servicos li.servico3{
+    background: url(../imagens/projecto03.png) no-repeat;
+    background-size: 100%;
+    margin-top: 130px;
+    margin-left: -135px;
+    width: 120px;            
+}
+ul#fotos_servicos li.servico4{
+    background: url(../imagens/projecto04.png) no-repeat;
+    background-size: 100%;
+    margin-top: 130px;
+    margin-left: -275px;
+    width: 120px;
                 }
                  
    .icon{
     margin-left: 10px;
-    width: 30px;
+    width: 50px;
     margin-top: -170px;
     float: left;
     
@@ -614,12 +656,12 @@ ul#fotos_servicos{
        
 .icon1{
     margin-left: 10px;
-    width: 30px;
-    margin-top: -140px;
+    width: 50px;
+    margin-top: -130px;
     float: left;
     
 }
 
    }
    
- 
+   
