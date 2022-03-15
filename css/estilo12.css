@@ -52,7 +52,7 @@ ul#primenu li.prilin ul#prisubmenu{
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
     margin-top: 18px;
     left: 0;
     display: none;
