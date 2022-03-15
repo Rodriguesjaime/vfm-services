@@ -284,7 +284,7 @@ ul#fotos_serviimp li.serviimp5{
 }
 
   
-/*resolucao de smartphon*/
+/*resolucao de smartphone*/
 @media screen and (max-width:768px){
     /*perfil geral de cada membro*/
    .imaglegenda{
@@ -297,12 +297,11 @@ ul#fotos_serviimp li.serviimp5{
    ul#fotos_perfil{
    margin-left: 320px;
    
-   
    }
    ul#fotos_perfil li.perfil1{
    background: url(../imagens/perfil_valdez.jpg) no-repeat;
    background-size: 100%;
-   margin-top: 20px;
+   margin-top: 200px;
    }
    ul#fotos_perfil li.perfil2{
    background: url(../imagens/miguel02.jpg) no-repeat;
@@ -317,28 +316,31 @@ ul#fotos_serviimp li.serviimp5{
    
     
    ul#fotos_principal{
-       width: 500px;
+       width: 300px;
        margin-left: 10px;
-       margin-top: -55px;
+       margin-top: -40px;
        }
      
    ul#fotos_principal li.imagem01{
        background: url(../imagens/faquer022.jpg) no-repeat;
        background-size: 100%;
+       width: 110px;
        }
        ul#fotos_principal li.imagem02{
        background: url(../imagens/miguel02.jpg) no-repeat;
        background-size: 100%;
        margin-top: -165px;
-       margin-left: 180px;
+       margin-left: 150px;
+       width: 110px;
        }
       
       
       ul#fotos_principal li.imagem03{
       background: url(../imagens/valdez033.jpg) no-repeat;
       background-size: 100%;
-      margin-top: -165px;
-      margin-left: 350px;
+      margin-top: 5px;
+      width: 110px;
+      
       
       }
    
